@@ -57,8 +57,6 @@ platforms:
   sources:
     - id: "v2ex"
       name: "V2EX"
-    - id: "kuan"
-      name: "酷安"
     - id: "github"
       name: "GitHub"
     - id: "bilibili-hot-search"
@@ -67,8 +65,6 @@ platforms:
       name: "少数派"
     - id: "ithome"
       name: "IT之家"
-    - id: "52pojie"
-      name: "吾爱破解"
     - id: "tieba"
       name: "贴吧"
     - id: "weibo"
