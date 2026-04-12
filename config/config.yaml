@@ -57,8 +57,6 @@ platforms:
   sources:
     - id: "v2ex"
       name: "V2EX"
-    - id: "kuan"
-      name: "酷安"
     - id: "github"
       name: "GitHub"
     - id: "bilibili-hot-search"
@@ -67,8 +65,6 @@ platforms:
       name: "少数派"
     - id: "ithome"
       name: "IT之家"
-    - id: "52pojie"
-      name: "吾爱破解"
     - id: "tieba"
       name: "贴吧"
     - id: "weibo"
@@ -419,7 +415,7 @@ ai:
 
   api_key: ""                       # API Key（建议使用环境变量 AI_API_KEY）
 
-  api_base: "https://llm.undefined.qzz.io"  # 自定义 API 端点（可选，大多数情况留空）
+  api_base: "https://llm.undefined.qzz.io/v1"  # 自定义 API 端点（可选，大多数情况留空）
                                     # 示例: https://api.openai.com/v1（自建代理或兼容接口）
                                     #
                                     # 💡 超级重要：连接任意兼容 OpenAI 协议的模型商
